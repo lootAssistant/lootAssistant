@@ -2,7 +2,7 @@
 
 @font-face {
   font-family:'AdamPro';
-  src: url('assets/fonts/AdamPro.otf');
+  src: url(asset-path('fonts/adamPro.otf'));
 } 
 
 body {
