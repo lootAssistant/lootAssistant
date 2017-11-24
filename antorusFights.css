@@ -1,11 +1,9 @@
-@font-face { font-family: "AccP"; src: url("assets/accid.ttf"); }
-@font-face { font-family: "League"; src: url("assets/LeagueGothic-Regular.otf"); }
 /*@font-face { font-family: "AdamPro"; src: url("AdamPro.otf"); }*/
 
-@include embed-font("AdamPro", "AdamPro");
-%icon-font {
-    font-family: "AdamPro";
-}
+@font-face {
+  font-family:'AdamPro';
+  src:font-url('AdamPro.otf');
+} 
 
 body {
     background: url("assets/antorusBlur.png") no-repeat;
