@@ -1,0 +1,1528 @@
+[
+	{
+		"itemID" : 138325,
+		"name" : "Tunic of Enveloped Dissonance",
+		"type" : 2,
+		"bossDrop" : "Krosus",
+		"spriteSheet" : "9,6"
+	},
+	{
+		"itemID" : 138334,
+		"name" : "Leggings of Enveloped Dissonance",
+		"type" : 2,
+		"bossDrop" : "Gul'dan",
+		"spriteSheet" : "9,5"
+	},
+	{
+		"itemID" : 138340,
+		"name" : "Eagletalon Gauntlets",
+		"type" : 3,
+		"bossDrop" : "Star Augur Etraeus",
+		"spriteSheet" : "9,2"
+	},
+	{
+		"itemID" : 138368,
+		"name" : "Eagletalon Cloak",
+		"type" : 0,
+		"bossDrop" : "Trilliax",
+		"spriteSheet" : "9,1"
+	},
+	{
+		"itemID" : 140806,
+		"name" : "Convergence of Fates",
+		"type" : 8,
+		"bossDrop" : "Elisande",
+		"spriteSheet" : "9,9"
+	},
+	{
+		"itemID" : 140809,
+		"name" : "Whispers in the Dark",
+		"type" : 9,
+		"bossDrop" : "Gul'dan",
+		"spriteSheet" : "9,4"
+	},
+	{
+		"itemID" : 142170,
+		"name" : "Drape of Shame",
+		"type" : 5,
+		"bossDrop" : "Maiden of Virtue (Karazhan)",
+		"spriteSheet" : "9,8"
+	},
+	{
+		"itemID" : 146984,
+		"name" : "Cloak of Stifling Brimstone",
+		"type" : 5,
+		"bossDrop" : "Goroth",
+		"spriteSheet" : "0,2"
+	},
+	{
+		"itemID" : 146985,
+		"name" : "Shroud of the Drowned Adherent",
+		"type" : 5,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,5"
+	},
+	{
+		"itemID" : 146986,
+		"name" : "Emberscatter Treads",
+		"type" : 1,
+		"bossDrop" : "Goroth",
+		"spriteSheet" : "0,4"
+	},
+	{
+		"itemID" : 146987,
+		"name" : "Slippers of Enduring Vigilance",
+		"type" : 1,
+		"bossDrop" : "Sisters of the Moon",
+		"spriteSheet" : "4,1"
+	},
+	{
+		"itemID" : 146988,
+		"name" : "Gloves of Furtive Oppression",
+		"type" : 1,
+		"bossDrop" : "Kil'Jaeden",
+		"spriteSheet" : "8,0"
+	},
+	{
+		"itemID" : 146990,
+		"name" : "Hundred-Fathom Veil",
+		"type" : 1,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,1"
+	},
+	{
+		"itemID" : 146991,
+		"name" : "Blackened Mask of Disgrace",
+		"type" : 1,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,1"
+	},
+	{
+		"itemID" : 146992,
+		"name" : "Legwraps of Fused Loathing",
+		"type" : 1,
+		"bossDrop" : "Goroth",
+		"spriteSheet" : "0,3"
+	},
+	{
+		"itemID" : 146993,
+		"name" : "Leggings of Divine Portents",
+		"type" : 1,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,1"
+	},
+	{
+		"itemID" : 146994,
+		"name" : "Robe of Aqueous Command",
+		"type" : 1,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,2"
+	},
+	{
+		"itemID" : 146995,
+		"name" : "Soul Queen's Ceremonial Robes",
+		"type" : 1,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,1"
+	},
+	{
+		"itemID" : 146996,
+		"name" : "Mantle of Broken Spirits",
+		"type" : 1,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,1"
+	},
+	{
+		"itemID" : 146997,
+		"name" : "Shoulderpads of Whispering Twilight",
+		"type" : 1,
+		"bossDrop" : "Sisters of the Moon",
+		"spriteSheet" : "4,0"
+	},
+	{
+		"itemID" : 146998,
+		"name" : "Braided Torture Lash",
+		"type" : 1,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,2"
+	},
+	{
+		"itemID" : 146999,
+		"name" : "Strife-Riddled Cinch",
+		"type" : 1,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,2"
+	},
+	{
+		"itemID" : 147000,
+		"name" : "Ravenous Devotee's Bracelets",
+		"type" : 1,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,1"
+	},
+	{
+		"itemID" : 147001,
+		"name" : "Oathbreaker's Cuffs",
+		"type" : 1,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,2"
+	},
+	{
+		"itemID" : 147002,
+		"name" : "Charm of the Rising Tide",
+		"type" : 8,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,10"
+	},
+	{
+		"itemID" : 147003,
+		"name" : "Barbaric Mindslaver",
+		"type" : 8,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,9"
+	},
+	{
+		"itemID" : 147004,
+		"name" : "Sea Star of the Depthmother",
+		"type" : 8,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,7"
+	},
+	{
+		"itemID" : 147005,
+		"name" : "Chalice of Moonlight",
+		"type" : 8,
+		"bossDrop" : "Sisters of the Moon",
+		"spriteSheet" : "4,9"
+	},
+	{
+		"itemID" : 147006,
+		"name" : "Archive of Faith",
+		"type" : 8,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,8"
+	},
+	{
+		"itemID" : 147007,
+		"name" : "The Deceiver's Grand Design",
+		"type" : 8,
+		"bossDrop" : "Kil'Jaeden",
+		"spriteSheet" : "8,10"
+	},
+	{
+		"itemID" : 147009,
+		"name" : "Infernal Cinders",
+		"type" : 8,
+		"bossDrop" : "Goroth",
+		"spriteSheet" : "0,0"
+	},
+	{
+		"itemID" : 147010,
+		"name" : "Cradle of Anguish",
+		"type" : 8,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,10"
+	},
+	{
+		"itemID" : 147011,
+		"name" : "Vial of Ceaseless Toxins",
+		"type" : 8,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,9"
+	},
+	{
+		"itemID" : 147012,
+		"name" : "Umbral Moonglaives",
+		"type" : 8,
+		"bossDrop" : "Sisters of the Moon",
+		"spriteSheet" : "4,11"
+	},
+	{
+		"itemID" : 147013,
+		"name" : "String of Extracted Incisors",
+		"type" : 6,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,8"
+	},
+	{
+		"itemID" : 147014,
+		"name" : "Locket of Splintered Souls",
+		"type" : 6,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,6"
+	},
+	{
+		"itemID" : 147015,
+		"name" : "Engine of Eradication",
+		"type" : 8,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,10"
+	},
+	{
+		"itemID" : 147016,
+		"name" : "Terror From Below",
+		"type" : 8,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,8"
+	},
+	{
+		"itemID" : 147017,
+		"name" : "Tarnished Sentinel Medallion",
+		"type" : 8,
+		"bossDrop" : "Sisters of the Moon",
+		"spriteSheet" : "4,10"
+	},
+	{
+		"itemID" : 147018,
+		"name" : "Spectral Thurible",
+		"type" : 8,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,8"
+	},
+	{
+		"itemID" : 147019,
+		"name" : "Tome of Unraveling Sanity",
+		"type" : 8,
+		"bossDrop" : "Kil'Jaeden",
+		"spriteSheet" : "8,11"
+	},
+	{
+		"itemID" : 147020,
+		"name" : "Scaled Band of Servitude",
+		"type" : 7,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,9"
+	},
+	{
+		"itemID" : 147021,
+		"name" : "Yathae's Thumb Ring",
+		"type" : 7,
+		"bossDrop" : "Sisters of the Moon",
+		"spriteSheet" : "4,8"
+	},
+	{
+		"itemID" : 147022,
+		"name" : "Feverish Carapace",
+		"type" : 8,
+		"bossDrop" : "Goroth",
+		"spriteSheet" : "0,1"
+	},
+	{
+		"itemID" : 147023,
+		"name" : "Leviathan's Hunger",
+		"type" : 8,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,6"
+	},
+	{
+		"itemID" : 147024,
+		"name" : "Reliquary of the Damned",
+		"type" : 8,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,7"
+	},
+	{
+		"itemID" : 147025,
+		"name" : "Recompiled Guardian Module",
+		"type" : 8,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,11"
+	},
+	{
+		"itemID" : 147026,
+		"name" : "Shifting Cosmic Sliver",
+		"type" : 8,
+		"bossDrop" : "Kil'Jaeden",
+		"spriteSheet" : "8,8"
+	},
+	{
+		"itemID" : 147027,
+		"name" : "Spirebreaker Harness",
+		"type" : 2,
+		"bossDrop" : "Goroth",
+		"spriteSheet" : "0,5"
+	},
+	{
+		"itemID" : 147028,
+		"name" : "Hide of the Abyssal Behemoth",
+		"type" : 2,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,2"
+	},
+	{
+		"itemID" : 147029,
+		"name" : "Glacier Walkers",
+		"type" : 2,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,4"
+	},
+	{
+		"itemID" : 147030,
+		"name" : "Felscape Pathfinders",
+		"type" : 2,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,4"
+	},
+	{
+		"itemID" : 147031,
+		"name" : "Moonfire Stranglers",
+		"type" : 2,
+		"bossDrop" : "Sisters of the Moon",
+		"spriteSheet" : "4,3"
+	},
+	{
+		"itemID" : 147032,
+		"name" : "Gloves of Wayward Compulsions",
+		"type" : 2,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,3"
+	},
+	{
+		"itemID" : 147033,
+		"name" : "Lunar-Wrath Headgear",
+		"type" : 2,
+		"bossDrop" : "Sisters of the Moon",
+		"spriteSheet" : "4,2"
+	},
+	{
+		"itemID" : 147034,
+		"name" : "Shadow-Scarred Headcover",
+		"type" : 2,
+		"bossDrop" : "Kil'Jaeden",
+		"spriteSheet" : "8,1"
+	},
+	{
+		"itemID" : 147035,
+		"name" : "Bonespur Studded Legwraps",
+		"type" : 2,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,3"
+	},
+	{
+		"itemID" : 147036,
+		"name" : "Fel-Stippled Legguards",
+		"type" : 2,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,4"
+	},
+	{
+		"itemID" : 147037,
+		"name" : "Dripping Arcfin Shoulderpads",
+		"type" : 2,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,3"
+	},
+	{
+		"itemID" : 147039,
+		"name" : "Cinch of Sizzling Flesh",
+		"type" : 2,
+		"bossDrop" : "Goroth",
+		"spriteSheet" : "0,6"
+	},
+	{
+		"itemID" : 147040,
+		"name" : "Etched Bone Waistband",
+		"type" : 2,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,2"
+	},
+	{
+		"itemID" : 147041,
+		"name" : "Sinew-Stitched Wristguards",
+		"type" : 2,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,4"
+	},
+	{
+		"itemID" : 147042,
+		"name" : "Bracers of Rippling Darkness",
+		"type" : 2,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,3"
+	},
+	{
+		"itemID" : 147043,
+		"name" : "Hauberk of Frozen Mist",
+		"type" : 3,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,5"
+	},
+	{
+		"itemID" : 147045,
+		"name" : "Insulated Finpads",
+		"type" : 3,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,6"
+	},
+	{
+		"itemID" : 147046,
+		"name" : "Star-Stalker Treads",
+		"type" : 3,
+		"bossDrop" : "Kil'Jaeden",
+		"spriteSheet" : "8,3"
+	},
+	{
+		"itemID" : 147047,
+		"name" : "Gauntlets of Spiteful Haunting",
+		"type" : 3,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,3"
+	},
+	{
+		"itemID" : 147048,
+		"name" : "Vicegrip of the Unrepentant",
+		"type" : 3,
+		"bossDrop" : "Kil'Jaeden",
+		"spriteSheet" : "8,4"
+	},
+	{
+		"itemID" : 147049,
+		"name" : "Azure Squallshaper's Helm",
+		"type" : 3,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,3"
+	},
+	{
+		"itemID" : 147050,
+		"name" : "Crown of Discarded Hope",
+		"type" : 3,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,5"
+	},
+	{
+		"itemID" : 147051,
+		"name" : "Flesh-Raking Leggings",
+		"type" : 3,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,6"
+	},
+	{
+		"itemID" : 147052,
+		"name" : "Legguards of Siphoned Power",
+		"type" : 3,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,5"
+	},
+	{
+		"itemID" : 147053,
+		"name" : "Pauldrons of the Gibbering Eye",
+		"type" : 3,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,5"
+	},
+	{
+		"itemID" : 147054,
+		"name" : "Mantle of Waning Radiance",
+		"type" : 3,
+		"bossDrop" : "Sisters of the Moon",
+		"spriteSheet" : "4,4"
+	},
+	{
+		"itemID" : 147055,
+		"name" : "Belt of Screaming Slag",
+		"type" : 3,
+		"bossDrop" : "Goroth",
+		"spriteSheet" : "0,7"
+	},
+	{
+		"itemID" : 147056,
+		"name" : "Waistguard of Interminable Unity",
+		"type" : 3,
+		"bossDrop" : "Sisters of the Moon",
+		"spriteSheet" : "4,5"
+	},
+	{
+		"itemID" : 147057,
+		"name" : "Pain-Singed Armguards",
+		"type" : 3,
+		"bossDrop" : "Goroth",
+		"spriteSheet" : "0,8"
+	},
+	{
+		"itemID" : 147058,
+		"name" : "Chaos-Calming Wristguards",
+		"type" : 3,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,6"
+	},
+	{
+		"itemID" : 147059,
+		"name" : "Iron Ballast Sabatons",
+		"type" : 4,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,4"
+	},
+	{
+		"itemID" : 147060,
+		"name" : "Steadfast Purifier's Warboots",
+		"type" : 4,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,7"
+	},
+	{
+		"itemID" : 147061,
+		"name" : "Dusk-Crusher Handguards",
+		"type" : 4,
+		"bossDrop" : "Sisters of the Moon",
+		"spriteSheet" : "4,7"
+	},
+	{
+		"itemID" : 147062,
+		"name" : "Groundshatter Gauntlets",
+		"type" : 4,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,6"
+	},
+	{
+		"itemID" : 147063,
+		"name" : "Armet of the Rotten Mind",
+		"type" : 4,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,4"
+	},
+	{
+		"itemID" : 147065,
+		"name" : "Lava-Slough Legguards",
+		"type" : 4,
+		"bossDrop" : "Goroth",
+		"spriteSheet" : "0,10"
+	},
+	{
+		"itemID" : 147066,
+		"name" : "Greaves of Impure Midnight",
+		"type" : 4,
+		"bossDrop" : "Kil'Jaeden",
+		"spriteSheet" : "8,5"
+	},
+	{
+		"itemID" : 147067,
+		"name" : "Wave-Hammered Breastplate",
+		"type" : 4,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,8"
+	},
+	{
+		"itemID" : 147068,
+		"name" : "Cuirass of Blinding Dawn",
+		"type" : 4,
+		"bossDrop" : "Sisters of the Moon",
+		"spriteSheet" : "4,6"
+	},
+	{
+		"itemID" : 147069,
+		"name" : "Shoulderplates of Crackling Flame",
+		"type" : 4,
+		"bossDrop" : "Goroth",
+		"spriteSheet" : "0,9"
+	},
+	{
+		"itemID" : 147070,
+		"name" : "Grave-Dredged Pauldrons",
+		"type" : 4,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,5"
+	},
+	{
+		"itemID" : 147071,
+		"name" : "Shiversleet Waistguard,",
+		"type" : 4,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,7"
+	},
+	{
+		"itemID" : 147072,
+		"name" : "Soul-Render's Greatbelt",
+		"type" : 4,
+		"bossDrop" : "Kil'Jaeden",
+		"spriteSheet" : "8,6"
+	},
+	{
+		"itemID" : 147073,
+		"name" : "Bonemeal-Crusted Armplates",
+		"type" : 4,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,7"
+	},
+	{
+		"itemID" : 147074,
+		"name" : "Vambraces of Resolute Justice",
+		"type" : 4,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,8"
+	},
+	{
+		"itemID" : 147076,
+		"name" : "Charred Hymnal of the Moon",
+		"type" : 9,
+		"bossDrop" : "Goroth",
+		"spriteSheet" : "0,11"
+	},
+	{
+		"itemID" : 147077,
+		"name" : "Inexorable Truth Serum",
+		"type" : 9,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,11"
+	},
+	{
+		"itemID" : 147078,
+		"name" : "Mote of Astral Suffusion",
+		"type" : 9,
+		"bossDrop" : "Sisters of the Moon",
+		"spriteSheet" : "4,12"
+	},
+	{
+		"itemID" : 147079,
+		"name" : "Torn Fabric of Reality",
+		"type" : 9,
+		"bossDrop" : "Kil'Jaeden",
+		"spriteSheet" : "8,12"
+	},
+	{
+		"itemID" : 147080,
+		"name" : "Blood of the Unworthy",
+		"type" : 9,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,12"
+	},
+	{
+		"itemID" : 147081,
+		"name" : "Pungent Chum",
+		"type" : 9,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,10"
+	},
+	{
+		"itemID" : 147082,
+		"name" : "Man'ari Blood Pact",
+		"type" : 9,
+		"bossDrop" : "Kil'Jaeden",
+		"spriteSheet" : "8,13"
+	},
+	{
+		"itemID" : 147084,
+		"name" : "Imploding Infernal Star",
+		"type" : 9,
+		"bossDrop" : "Goroth",
+		"spriteSheet" : "0,12"
+	},
+	{
+		"itemID" : 147085,
+		"name" : "Mutated Nautilus",
+		"type" : 9,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,11"
+	},
+	{
+		"itemID" : 147086,
+		"name" : "Befouled Effigy of Elune",
+		"type" : 9,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,9"
+	},
+	{
+		"itemID" : 147087,
+		"name" : "Ruinous Ashes",
+		"type" : 9,
+		"bossDrop" : "Kil'Jaeden",
+		"spriteSheet" : "8,14"
+	},
+	{
+		"itemID" : 147088,
+		"name" : "Smoldering Thumbscrews",
+		"type" : 9,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,13"
+	},
+	{
+		"itemID" : 147089,
+		"name" : "Ferocity of the Devout",
+		"type" : 9,
+		"bossDrop" : "Sisters of the Moon",
+		"spriteSheet" : "4,13"
+	},
+	{
+		"itemID" : 147090,
+		"name" : "Stabilized Extinction Protocol",
+		"type" : 9,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,13"
+	},
+	{
+		"itemID" : 147091,
+		"name" : "Cleansing Ignition Catalyst",
+		"type" : 9,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,10"
+	},
+	{
+		"itemID" : 147092,
+		"name" : "Ice-Threaded Conch",
+		"type" : 9,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,11"
+	},
+	{
+		"itemID" : 147093,
+		"name" : "Globe of Frothing Eddies",
+		"type" : 9,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,12"
+	},
+	{
+		"itemID" : 147094,
+		"name" : "Virus of Lethargy",
+		"type" : 9,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,15"
+	},
+	{
+		"itemID" : 147095,
+		"name" : "Sphere of Entropy",
+		"type" : 9,
+		"bossDrop" : "Kil'Jaeden",
+		"spriteSheet" : "8,15"
+	},
+	{
+		"itemID" : 147096,
+		"name" : "Inquisition's Master Key",
+		"type" : 9,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,14"
+	},
+	{
+		"itemID" : 147097,
+		"name" : "Blessing of the White Lady",
+		"type" : 9,
+		"bossDrop" : "Sisters of the Moon",
+		"spriteSheet" : "4,14"
+	},
+	{
+		"itemID" : 147098,
+		"name" : "Fragment of Grace",
+		"type" : 9,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,12"
+	},
+	{
+		"itemID" : 147099,
+		"name" : "Boon of the Prophet",
+		"type" : 9,
+		"bossDrop" : "Kil'Jaeden",
+		"spriteSheet" : "8,16"
+	},
+	{
+		"itemID" : 147100,
+		"name" : "Calcified Barnacle",
+		"type" : 9,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,12"
+	},
+	{
+		"itemID" : 147101,
+		"name" : "Chiseled Starlight",
+		"type" : 9,
+		"bossDrop" : "Sisters of the Moon",
+		"spriteSheet" : "4,15"
+	},
+	{
+		"itemID" : 147102,
+		"name" : "Reactive Pylon Casing",
+		"type" : 9,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,11"
+	},
+	{
+		"itemID" : 147104,
+		"name" : "Icon of Perverse Animation",
+		"type" : 9,
+		"bossDrop" : "Goroth",
+		"spriteSheet" : "0,13"
+	},
+	{
+		"itemID" : 147105,
+		"name" : "Moontalon's Feather",
+		"type" : 9,
+		"bossDrop" : "Sisters of the Moon",
+		"spriteSheet" : "4,16"
+	},
+	{
+		"itemID" : 147106,
+		"name" : "Glowing Prayer Candle",
+		"type" : 9,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,10"
+	},
+	{
+		"itemID" : 147107,
+		"name" : "Valorous Spark of Hope",
+		"type" : 9,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,12"
+	},
+	{
+		"itemID" : 147108,
+		"name" : "Brand of Relentless Agony",
+		"type" : 9,
+		"bossDrop" : "Goroth",
+		"spriteSheet" : "0,14"
+	},
+	{
+		"itemID" : 147109,
+		"name" : "Harjatan's Leering Eye",
+		"type" : 9,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,13"
+	},
+	{
+		"itemID" : 147110,
+		"name" : "Grimacing Highborne Skull",
+		"type" : 9,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,11"
+	},
+	{
+		"itemID" : 147111,
+		"name" : "Scornful Reflection",
+		"type" : 9,
+		"bossDrop" : "Kil'Jaeden",
+		"spriteSheet" : "8,17"
+	},
+	{
+		"itemID" : 147112,
+		"name" : "Felsoul Vortex",
+		"type" : 9,
+		"bossDrop" : "Goroth",
+		"spriteSheet" : "0,15"
+	},
+	{
+		"itemID" : 147113,
+		"name" : "Flawless Hurricane Pearl",
+		"type" : 9,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,13"
+	},
+	{
+		"itemID" : 147114,
+		"name" : "Preserved Starlight Incense",
+		"type" : 9,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,12"
+	},
+	{
+		"itemID" : 147115,
+		"name" : "Unfurling Origination",
+		"type" : 9,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,14"
+	},
+	{
+		"itemID" : 147121,
+		"name" : "Gravewarden Chestplate",
+		"type" : 0,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,16"
+	},
+	{
+		"itemID" : 147122,
+		"name" : "Gravewarden Cloak",
+		"type" : 0,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,13"
+	},
+	{
+		"itemID" : 147123,
+		"name" : "Gravewarden Handguards",
+		"type" : 0,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,14"
+	},
+	{
+		"itemID" : 147124,
+		"name" : "Gravewarden Visage",
+		"type" : 0,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,15"
+	},
+	{
+		"itemID" : 147125,
+		"name" : "Gravewarden Legplates",
+		"type" : 0,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,14"
+	},
+	{
+		"itemID" : 147126,
+		"name" : "Gravewarden Pauldrons",
+		"type" : 0,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,14"
+	},
+	{
+		"itemID" : 147127,
+		"name" : "Demonbane Harness",
+		"type" : 0,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,17"
+	},
+	{
+		"itemID" : 147128,
+		"name" : "Demonbane Shroud",
+		"type" : 0,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,14"
+	},
+	{
+		"itemID" : 147129,
+		"name" : "Demonbane Gauntlets",
+		"type" : 0,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,15"
+	},
+	{
+		"itemID" : 147130,
+		"name" : "Demonbane Faceguard",
+		"type" : 0,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,16"
+	},
+	{
+		"itemID" : 147131,
+		"name" : "Demonbane Leggings",
+		"type" : 0,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,15"
+	},
+	{
+		"itemID" : 147132,
+		"name" : "Demonbane Shoulderpads",
+		"type" : 0,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,15"
+	},
+	{
+		"itemID" : 147133,
+		"name" : "Stormheart Tunic",
+		"type" : 0,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,18"
+	},
+	{
+		"itemID" : 147134,
+		"name" : "Stormheart Drape",
+		"type" : 0,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,15"
+	},
+	{
+		"itemID" : 147135,
+		"name" : "Stormheart Gloves",
+		"type" : 0,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,16"
+	},
+	{
+		"itemID" : 147136,
+		"name" : "Stormheart Headdress",
+		"type" : 0,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,17"
+	},
+	{
+		"itemID" : 147137,
+		"name" : "Stormheart Legguards",
+		"type" : 0,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,16"
+	},
+	{
+		"itemID" : 147138,
+		"name" : "Stormheart Mantle",
+		"type" : 0,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,16"
+	},
+	{
+		"itemID" : 147139,
+		"name" : "Wildstalker Chestguard",
+		"type" : 0,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,19"
+	},
+	{
+		"itemID" : 147140,
+		"name" : "Wildstalker Cape",
+		"type" : 0,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,16"
+	},
+	{
+		"itemID" : 147141,
+		"name" : "Wildstalker Gauntlets",
+		"type" : 0,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,17"
+	},
+	{
+		"itemID" : 147142,
+		"name" : "Wildstalker Helmet",
+		"type" : 0,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,18"
+	},
+	{
+		"itemID" : 147143,
+		"name" : "Wildstalker Leggings",
+		"type" : 0,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,17"
+	},
+	{
+		"itemID" : 147144,
+		"name" : "Wildstalker Spaulders",
+		"type" : 0,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,17"
+	},
+	{
+		"itemID" : 147145,
+		"name" : "Drape of the Arcane Tempest",
+		"type" : 0,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,17"
+	},
+	{
+		"itemID" : 147146,
+		"name" : "Gloves of the Arcane Tempest",
+		"type" : 0,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,18"
+	},
+	{
+		"itemID" : 147147,
+		"name" : "Crown of the Arcane Tempest",
+		"type" : 0,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,19"
+	},
+	{
+		"itemID" : 147148,
+		"name" : "Leggings of the Arcane Tempest",
+		"type" : 0,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,18"
+	},
+	{
+		"itemID" : 147149,
+		"name" : "Robes of the Arcane Tempest",
+		"type" : 0,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,20"
+	},
+	{
+		"itemID" : 147150,
+		"name" : "Mantle of the Arcane Tempest",
+		"type" : 0,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,18"
+	},
+	{
+		"itemID" : 147151,
+		"name" : "Xuen's Tunic",
+		"type" : 0,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,21"
+	},
+	{
+		"itemID" : 147152,
+		"name" : "Xuen's Cloak",
+		"type" : 0,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,18"
+	},
+	{
+		"itemID" : 147153,
+		"name" : "Xuen's Gauntlets",
+		"type" : 0,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,19"
+	},
+	{
+		"itemID" : 147154,
+		"name" : "Xuen's Helm",
+		"type" : 0,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,20"
+	},
+	{
+		"itemID" : 147155,
+		"name" : "Xuen's Legguards",
+		"type" : 0,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,19"
+	},
+	{
+		"itemID" : 147156,
+		"name" : "Xuen's Shoulderguards",
+		"type" : 0,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,19"
+	},
+	{
+		"itemID" : 147157,
+		"name" : "Radiant Lightbringer Breastplate",
+		"type" : 0,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,22"
+	},
+	{
+		"itemID" : 147158,
+		"name" : "Radiant Lightbringer Cape",
+		"type" : 0,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,19"
+	},
+	{
+		"itemID" : 147159,
+		"name" : "Radiant Lightbringer Gauntlets",
+		"type" : 0,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,20"
+	},
+	{
+		"itemID" : 147160,
+		"name" : "Radiant Lightbringer Crown",
+		"type" : 0,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,21"
+	},
+	{
+		"itemID" : 147161,
+		"name" : "Radiant Lightbringer Greaves",
+		"type" : 0,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,20"
+	},
+	{
+		"itemID" : 147162,
+		"name" : "Radiant Lightbringer Shoulderguards",
+		"type" : 0,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,20"
+	},
+	{
+		"itemID" : 147163,
+		"name" : "Shawl of Blind Absolution",
+		"type" : 0,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,20"
+	},
+	{
+		"itemID" : 147164,
+		"name" : "Gloves of Blind Absolution",
+		"type" : 0,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,21"
+	},
+	{
+		"itemID" : 147165,
+		"name" : "Hood of Blind Absolution",
+		"type" : 0,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,22"
+	},
+	{
+		"itemID" : 147166,
+		"name" : "Leggings of Blind Absolution",
+		"type" : 0,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,21"
+	},
+	{
+		"itemID" : 147167,
+		"name" : "Robes of Blind Absolution",
+		"type" : 0,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,23"
+	},
+	{
+		"itemID" : 147168,
+		"name" : "Mantle of Blind Absolution",
+		"type" : 0,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,21"
+	},
+	{
+		"itemID" : 147169,
+		"name" : "Fanged Slayer's Chestguard",
+		"type" : 0,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,24"
+	},
+	{
+		"itemID" : 147170,
+		"name" : "Fanged Slayer's Shroud",
+		"type" : 0,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,21"
+	},
+	{
+		"itemID" : 147171,
+		"name" : "Fanged Slayer's Handguards",
+		"type" : 0,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,22"
+	},
+	{
+		"itemID" : 147172,
+		"name" : "Fanged Slayer's Helm",
+		"type" : 0,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,23"
+	},
+	{
+		"itemID" : 147173,
+		"name" : "Fanged Slayer's Legguards",
+		"type" : 0,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,22"
+	},
+	{
+		"itemID" : 147174,
+		"name" : "Fanged Slayer's Shoulderpads",
+		"type" : 0,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,22"
+	},
+	{
+		"itemID" : 147175,
+		"name" : "Harness of the Skybreaker",
+		"type" : 0,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,25"
+	},
+	{
+		"itemID" : 147176,
+		"name" : "Drape of the Skybreaker",
+		"type" : 0,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,22"
+	},
+	{
+		"itemID" : 147177,
+		"name" : "Grips of the Skybreaker",
+		"type" : 0,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,23"
+	},
+	{
+		"itemID" : 147178,
+		"name" : "Helmet of the Skybreaker",
+		"type" : 0,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,24"
+	},
+	{
+		"itemID" : 147179,
+		"name" : "Legguards of the Skybreaker",
+		"type" : 0,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,23"
+	},
+	{
+		"itemID" : 147180,
+		"name" : "Pauldrons of the Skybreaker",
+		"type" : 0,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,23"
+	},
+	{
+		"itemID" : 147181,
+		"name" : "Diabolic Shroud",
+		"type" : 0,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,23"
+	},
+	{
+		"itemID" : 147182,
+		"name" : "Diabolic Gloves",
+		"type" : 0,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,24"
+	},
+	{
+		"itemID" : 147183,
+		"name" : "Diabolic Helm",
+		"type" : 0,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,25"
+	},
+	{
+		"itemID" : 147184,
+		"name" : "Diabolic Leggings",
+		"type" : 0,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,24"
+	},
+	{
+		"itemID" : 147185,
+		"name" : "Diabolic Robe",
+		"type" : 0,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,26"
+	},
+	{
+		"itemID" : 147186,
+		"name" : "Diabolic Mantle",
+		"type" : 0,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,24"
+	},
+	{
+		"itemID" : 147187,
+		"name" : "Titanic Onslaught Breastplate",
+		"type" : 0,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,27"
+	},
+	{
+		"itemID" : 147188,
+		"name" : "Titanic Onslaught Cloak",
+		"type" : 0,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,24"
+	},
+	{
+		"itemID" : 147189,
+		"name" : "Titanic Onslaught Handguards",
+		"type" : 0,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,25"
+	},
+	{
+		"itemID" : 147190,
+		"name" : "Titanic Onslaught Greathelm",
+		"type" : 0,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,26"
+	},
+	{
+		"itemID" : 147191,
+		"name" : "Titanic Onslaught Greaves",
+		"type" : 0,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,25"
+	},
+	{
+		"itemID" : 147192,
+		"name" : "Titanic Onslaught Pauldrons",
+		"type" : 0,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,25"
+	},
+	{
+		"itemID" : 147193,
+		"name" : "Cape of Mindless Fury",
+		"type" : 5,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,7"
+	},
+	{
+		"itemID" : 147194,
+		"name" : "Band of Rescinded Truths",
+		"type" : 7,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,9"
+	},
+	{
+		"itemID" : 147195,
+		"name" : "Seal of the Second Duumvirate",
+		"type" : 7,
+		"bossDrop" : "Kil'Jaeden",
+		"spriteSheet" : "8,7"
+	},
+	{
+		"itemID" : 147317,
+		"name" : "Chest Token",
+		"type" : 10,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,0"
+	},
+	{
+		"itemID" : 147321,
+		"name" : "Gloves Token",
+		"type" : 10,
+		"bossDrop" : "Harjatan",
+		"spriteSheet" : "2,0"
+	},
+	{
+		"itemID" : 147323,
+		"name" : "Head Token",
+		"type" : 10,
+		"bossDrop" : "Demonic Inquisition",
+		"spriteSheet" : "1,0"
+	},
+	{
+		"itemID" : 147326,
+		"name" : "Legs Token",
+		"type" : 10,
+		"bossDrop" : "Mistress Sassz'ine",
+		"spriteSheet" : "3,0"
+	},
+	{
+		"itemID" : 147330,
+		"name" : "Shoulders Token",
+		"type" : 10,
+		"bossDrop" : "Fallen Avatar",
+		"spriteSheet" : "7,0"
+	},
+	{
+		"itemID" : 147332,
+		"name" : "Cloak Token",
+		"type" : 10,
+		"bossDrop" : "The Desolate Host",
+		"spriteSheet" : "5,0"
+	},
+	{
+		"itemID" : 147347,
+		"name" : "Waistguard of Profane Duplicity",
+		"type" : 2,
+		"bossDrop" : "Kil'Jaeden",
+		"spriteSheet" : "8,2"
+	},
+	{
+		"itemID" : 147424,
+		"name" : "Treads of Violent Intrusion",
+		"type" : 2,
+		"bossDrop" : "ToS Trash Mobs",
+		"spriteSheet" : "9,0"
+	},
+	{
+		"itemID" : 147427,
+		"name" : "Pristine Moon-Wrought Clasp",
+		"type" : 3,
+		"bossDrop" : "ToS Trash Mobs",
+		"spriteSheet" : "9,3"
+	},
+	{
+		"itemID" : 147428,
+		"name" : "Spiked Terrorwake Greatboots",
+		"type" : 4,
+		"bossDrop" : "ToS Trash Mobs",
+		"spriteSheet" : "9,7"
+	},
+	{
+		"itemID" : 151189,
+		"name" : "Tears of the Maiden",
+		"type" : 9,
+		"bossDrop" : "Maiden of Vigilance",
+		"spriteSheet" : "6,28"
+	},
+	{
+		"itemID" : 151190,
+		"name" : "Specter of Betrayal",
+		"type" : 8,
+		"bossDrop" : "Kil'Jaeden",
+		"spriteSheet" : "8,9"
+	}
+]

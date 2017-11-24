@@ -1,0 +1,209 @@
+@font-face { font-family: "AccP"; src: url("assets/accid.ttf"); }
+@font-face { font-family: "League"; src: url("assets/LeagueGothic-Regular.otf"); }
+@font-face { font-family: "AdamPro"; src: url("assets/AdamPro.otf"); }
+
+body {
+    background: url("assets/antorusBlur.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1250px;
+}
+
+a.videoLink{
+    font-size: 25px;
+    color: white;
+    font-family: 'AccP', sans-serif;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
+}
+
+.videoHolder:hover{
+    border: solid 2px white;
+}
+
+.linksWrapper{
+    width: 350px;
+    height: 70px;
+    float: left;
+    position: relative;
+    bottom: 0;
+}
+
+.hWrapper{
+    height: 145px;
+}
+
+.videoHolder{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    border: solid 2px black;
+    margin: 5px;
+    background: #1B5E20;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "AdamPro";
+    user-select: none;
+}
+
+
+.bossImage{
+    height: 200px;
+    width: 200px;
+    background: url('assets/bossesSheet.png');
+    background-size: cover;
+    border: solid 2px black;
+    float: left;
+    margin-right: 10px;
+}
+
+h1{
+    font-family: "AdamPro";
+    font-size: 24px;
+    color: white;
+    margin: 0px auto;
+    text-align: left;
+}
+
+h2{
+    font-family: "AdamPro";
+    font-size: 26px;
+    color: white;
+    text-align: left;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h3{
+    font-family: "AdamPro";
+    font-size: 26px;
+    color: white;
+    text-align: left;
+    width: 6500px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.bossWrapper{
+    width:80%;
+    height: 1200px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: solid 2px black;
+    padding: 10px;
+    background: #333;
+    display: none;
+}
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    color: white;
+    text-align: justify;
+}
+
+.mechanicsWrapper{
+    height: 800px;
+    width: 100%;
+}
+
+.descWrapper{
+    height: 220px;
+}
+
+a {
+    text-decoration: underline;
+    /*color: #7986CB;*/
+    color: #5C6BC0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.iconWrapper{
+    height: 60px;
+    float: left;
+    width: 100%;
+    line-height: 24px;
+    margin: 2px;
+}
+
+.icon{
+    background: url('assets/iconsRaid.png');
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    display: inline;
+    float: left;
+}
+
+.iconName{
+    height: 24px;
+    width: 45px;
+    line-height: 20px;
+    display: inline;
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: "AdamPro";
+    color: white;
+    margin-right: 4px;
+}
+
+.tank{
+    background-position: -72px 0px;
+    background-color: #B71C1C;
+}
+
+.tankSwap{
+    background-position: -48px 0px;
+    background-color: #E65100;
+}
+
+.move{
+    background-position: -0px 0px;
+    background-color: #1A237E;
+}
+
+.soak{
+    background-position: -24px 0px;
+    background-color: #33691E;
+}
+
+.heal{
+    background-position: -120px 0px;
+    background-color: #ffffff;
+    color: black;
+}
+
+.debuff{
+    background-position: -144px 0px;
+    background-color: #4A148C;
+}
