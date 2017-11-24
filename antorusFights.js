@@ -27,6 +27,10 @@ function startSizing(){
 function addMouseOvers(){
     $("li a").on("mousedown", function () {
         var id=($(this).attr("id"));
+        
+        if (prevClick<0){
+            $("#welcome").hide();
+        }
         if (!check){
             check=true;
             if(id!=prevClick){
