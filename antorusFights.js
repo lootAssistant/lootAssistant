@@ -10,7 +10,6 @@ $( document ).ready(function() {
     console.log( "ready!" );
     startSizing();
     addMouseOvers();
-    window.location.reload(true);
 });
 
 function startSizing(){
