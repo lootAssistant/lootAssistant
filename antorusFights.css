@@ -3,7 +3,7 @@
 
 @font-face {
   font-family:'AdamPro';
-  src: url('../SubSkipper/adamPro.otf'));
+  src: url('../SubSkipper/adamPro.otf') format("opentype");
   font-weight: bold;
   font-style: normal;
 } 
