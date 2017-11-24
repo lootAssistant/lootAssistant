@@ -31,9 +31,10 @@ function addMouseOvers(){
         if (prevClick<0){
             $("#welcome").hide();
         }
+        console.log(check);
         if (!check){
-            check=true;
             if(id!=prevClick){
+                check=true;
                 var l=sizes[id][1]+"px";
                 if (prevClick>=0){           
                     $('#'+prevClick).text(shortName[prevClick]);
