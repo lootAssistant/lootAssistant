@@ -2,7 +2,7 @@
 
 @font-face {
   font-family:'AdamPro';
-  src: url(asset-path('fonts/adamPro.otf'));
+  src: url('../SubSkipper/adamPro.otf'));
 } 
 
 body {
