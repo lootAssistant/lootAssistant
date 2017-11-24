@@ -5,7 +5,7 @@
     
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <script type="text/javascript" src="assets/tt.js"></script>
-    <script src="jquery-3.2.1.min.js"></script>  
+    <script src="jQuery/jquery-3.2.1.min.js"></script>  
     <script src="antorusFights.js"></script>
     <title>Antorus Encounters</title>
     
@@ -26,6 +26,12 @@
         <li><a id="9">Aggramar</a></li>
         <li><a id="10">Argus</a></li>
     </ul>
+    
+    <div id="welcome" class="bossWrapper" style="height: 120px;display: block">
+        <p style="text-align: center">Actual Loot Assistance to be added soon &#153;</p>
+        <p style="text-align: center">For now, boss strats. Now, go click on a boss name.</p>
+        <p style="text-align: center">Made by Darksillence#2971</p>
+    </div>
     
     <div id="Garothi" class="bossWrapper" style="height: 900px">
         
@@ -831,7 +837,7 @@
         
     </div>
     
-    <div id="Coven" class="bossWrapper" style="height: 1050px">
+    <div id="Coven" class="bossWrapper" style="height: 1100px">
     
         <div class="descWrapper">
             <div class="bossImage" style="background-position: -3400px 0px"></div>
@@ -841,30 +847,248 @@
                     <p> Having proven themselves to be the most depraved and fanatical of all his followers, Sargeras entrusted the Coven with the
                     unholy task of twisting the minds of the fallen titans into an unstoppable Dark Pantheon. Each sister employs her own signature brand
                     of torture, eliciting screams which echo throughout the halls of Antorus. It is said that neither mortal nor demon can refuse their
-                    whispers, making it only a matter of time before the will of the titans is broken.</p>
+                    whispers, making it only a matter of time before the will of the titans is broken.</p>                    
+                </div>
+                
+                <div class="linksWrapper">
+                    <div class="videoHolder">
+                        <a class="videoLink" href="https://www.youtube.com/watch?v=ncpVUaFNYJE" target="_blank">FatbossTV</a>
+                    </div>
+                    <div class="videoHolder">
+                        <a class="videoLink" href="https://www.youtube.com/watch?v=pBR2mB8QCeU" target="_blank">Hazelnuttygames</a>
+                    </div>
                 </div>
             </div>
         </div>
         
-        <div class="mechanicsWrapper"></div>
+        <div class="mechanicsWrapper">
+            
+            <p>
+                <span class="icon tank"></span><span class="iconName tank"> Tank </span>
+                Position both active Shivarras 18 yd apart to avoid 
+                <a href="http://www.wowdb.com/spells/253189-shivan-pact">Shivan Pact</a>.
+            </p>
+            
+            <p>
+                <span class="icon tankSwap"></span><span class="iconName tankSwap" style="width: 95px"> Tank Swap </span>
+                If Noura is active, swap at 4 stacks of
+                <a href="http://www.wowdb.com/spells/244899-fiery-strike">Fiery Strike</a>
+                and face Noura away from the group.
+            </p>
+            
+            <p>
+                <span class="icon tankSwap"></span><span class="iconName tankSwap" style="width: 95px"> Tank Swap </span>
+                If Niima is active, swap for
+                <a href="http://www.wowdb.com/spells/245518-flashfreeze">Flash Freeze</a>.
+            </p>
+            
+            <h2>Noura - Fire</h2>
+            
+            <p>
+                <span class="icon move"></span><span class="iconName move"> Move </span>
+                Dodge 
+                <a href="http://www.wowdb.com/spells/245627/whirling-saber">Whirling Saber</a>.
+            </p>
+            
+            <p>
+                - Make sure no one is in your circle for
+                <a href="http://www.wowdb.com/spells/253429-fulminating-pulse">Fulminating Pulse</a>.
+            </p>
+            
+            <h2>Asara - Shadow</h2>
+            
+            <p>
+                <span class="icon move"></span><span class="iconName move"> Move </span>
+                Dodge 
+                <a href="http://www.wowdb.com/spells/245281-shadow-blades">Shadow Blades</a>.
+            </p>
+            <p>
+                <span class="icon move"></span><span class="iconName move"> Move </span>
+                <span class="icon heal"></span><span class="iconName heal"> Heal </span>
+                Run to white blocks on the ground to reduce damage taken from 
+                <a href="http://www.wowdb.com/spells/252861-storm-of-darkness">Storm of Darkness</a>.
+            </p>
+            
+            <h2>Diima - Ice</h2>
+            
+            <p>
+                <span class="icon heal"></span><span class="iconName heal"> Heal </span>
+                Heal targets affected by
+                <a href="http://www.wowdb.com/spells/245586-chilled-blood">Chilled Blood</a>
+                to reduce the stun duration.
+            </p>
+            
+            <p>
+                <span class="icon move"></span><span class="iconName move"> Move </span>
+                Dodge 
+                <a href="http://www.wowdb.com/spells/253650-orb-of-frost">Orb of Frost</a>.
+            </p>
+            
+            <h2>Titan Souls</h2>
+            
+            <p>- Aman’thul: Focus the souls before they finish the cast
+                <a href="http://www.wowdb.com/spells/250095-machinations-of-amanthul">Machinations of Aman'thul</a>.
+            </p>
+            
+            <p>- Golganneth: spread out 2yd from each other to avoid
+                <a href="http://www.wowdb.com/spells/246763-fury-of-golganneth">Fury of Golganneth</a>.
+            </p>
+            
+            <p>- Khaz’goroth: stay close to the edges of the room,in order to avoid
+            <a href="http://www.wowdb.com/spells/245671-flames-of-khazgoroth">Flames of Khaz'goroth</a>.
+            </p>
+            
+            <p>- Norgannon: Use stuns/slows to open a path to dodge the souls. These will be immune to damage for 20s.</p>
+            
+            <h2>Phases</h2>
+            
+            <p>-A phase change occurs everytime the raid defeats 2 titan souls spawns, which should spawn every 1.5mins.</p>
+            <p>- P1: Fire + Shadow</p>
+            <p>- P2: Shadow + Ice</p>
+            <p>- P3: Ice + Fire</p>          
+                      
+        </div>
         
     </div>
     
-    <div id="Aggramar" class="bossWrapper" style="height: 1050px">
+    <div id="Aggramar" class="bossWrapper" style="height: 1150px">
     
         <div class="descWrapper">
             <div class="bossImage" style="background-position: -3600px 0px"></div>
             <div>
                 <div class="hWrapper">
-                <h1>Aggramar</h1>
-                <p>  Once the noble Avenger of the Pantheon, Aggramar was struck down by Sargeras and reborn as a titan of destruction.
-                He now stands at the core of Argus, guarding a power that could unmake the universe. Not even demons are permitted to tread within
-                the titan's halls, and any mortals bold enough to trespass will be reduced to cinders by Aggramar's burning blade, Taeshalach.</p>
+                    <h1>Aggramar</h1>
+                    <p>  Once the noble Avenger of the Pantheon, Aggramar was struck down by Sargeras and reborn as a titan of destruction.
+                    He now stands at the core of Argus, guarding a power that could unmake the universe. Not even demons are permitted to tread within
+                    the titan's halls, and any mortals bold enough to trespass will be reduced to cinders by Aggramar's burning blade, Taeshalach.</p>                                
+                </div>
+                
+                <div class="linksWrapper">
+                    <div class="videoHolder">
+                        <a class="videoLink" href="https://www.youtube.com/watch?v=ii02D6XkLeM" target="_blank">FatbossTV</a>
+                    </div>                   
                 </div>
             </div>
         </div>
         
-        <div class="mechanicsWrapper"></div>
+        <div class="mechanicsWrapper">
+            
+            <h2>Phase 1</h2>
+            
+            <p>
+                <span class="icon tank"></span><span class="iconName tank"> Tank </span>
+                Tanks should be stacked for
+                <a href="http://www.wowdb.com/spells/243431-taeshalachs-reach">Taeshalach's Reach</a>.
+            </p>
+            
+            <p>
+                <span class="icon tankSwap"></span><span class="iconName tankSwap" style="width: 95px"> Tank Swap </span>
+                Swap every 
+                <a href="http://www.wowdb.com/spells/243431-taeshalachs-reach">Taeshalach's Reach</a>.
+            </p>
+            
+
+            <p>- While the boss is below 100 energy, stay spread for
+                <a href="http://www.wowdb.com/spells/245995-scorching-blaze">Scorching Blaze</a>.
+            </p>
+            
+            <p>
+                <span class="icon move"></span><span class="iconName move"> Move </span>
+                Dodge 
+               <a href="http://www.wowdb.com/spells/244736-wake-of-flame">Wake of Flame</a>.
+            </p>
+            
+            <p>
+                - At 100 energy, the raid stacks up for
+                 <a href="http://www.wowdb.com/spells/244688-taeshalach-technique">Taeshalach Technique</a>.
+            </p>
+            
+            <h3>Taeshalach Technique</h3>
+            
+            <p>
+                <span class="icon tank"></span><span class="iconName tank"> Tank </span>
+                Cast #1: Active tank faces the boss away from the raid group for
+                <a href="http://www.wowdb.com/spells/244291-foe-breaker">Foe Breaker</a>.
+            </p>
+            
+            <p>
+                <span class="icon tank"></span><span class="iconName tank"> Tank </span>
+                <span class="icon soak"></span><span class="iconName soak"> Soak </span>
+                Cast #2: Active tank faces the boss towards the raid group for
+                <a href="http://www.wowdb.com/spells/244033-flame-rend">Flame Rend</a>.
+            </p>
+            
+            <p>
+                <span class="icon tankSwap"></span><span class="iconName tankSwap" style="width: 95px"> Tank Swap </span>
+                Cast #3: Tank swap before the next
+                <a href="http://www.wowdb.com/spells/244291-foe-breaker">Foe Breaker</a>.
+                Face this cast away from the raid group.
+            </p>
+            
+            <p>
+                <span class="icon tank"></span><span class="iconName tank"> Tank </span>
+                <span class="icon soak"></span><span class="iconName soak"> Soak </span>
+                Cast #4: Active tank faces the boss towards the raid group again for
+                <a href="http://www.wowdb.com/spells/244033-flame-rend">Flame Rend</a>.
+            </p>
+            
+            <p>
+                <span class="icon move"></span><span class="iconName move"> Move </span>
+                Cast #5: Run away from the boss to avoid
+                <a href="http://www.wowdb.com/spells/246014-searing-tempest">Searing Tempest</a>.
+            </p>
+            
+            <h3>Intermission 1 - 80%</h3>
+            
+            <p>
+                - Boss is immune, touching the boss' shield will inflinct 1.2mil dmg and knock the player back. Killing both Flames of Taeshalach (big adds)
+                will finish the intermission phase.
+            </p>
+
+            <p>
+                <span class="icon tank"></span><span class="iconName tank"> Tank </span>
+                Spread the Flames of Taeshalach from eacother and from the Embers of Taeshalach (little ads) to avoid 
+                <a href="http://www.wowdb.com/spells/244903-catalyzing-presence">Catalyzing Presence</a>.              
+            </p>
+            
+            <p>
+                <span class="icon heal"></span><span class="iconName heal"> Heal </span>
+                - Once an Embers of Taeshalach reaches Aggramar, it will cause
+                <a href="http://www.wowdb.com/spells/244912-blazing-eruption">Blazing Eruption</a>.
+                These adds can be slowed/stunned to avoid that.
+            </p>
+            
+            <p>
+                - On heroic, when a small add dies, it forms
+                <a href="http://www.wowdb.com/spells/245916-molten-remnants">Molten Remnants</a>
+                from which it will respawn after 18sec.
+                The only way to get rid of the add is to let it reach the boss.
+            </p>
+            
+            <h2>Phase 2</h2>
+            
+            <p>
+                <span class="icon move"></span><span class="iconName move"> Move </span>
+                - Same as phase 1, with the added mechanic
+                <a href="http://www.wowdb.com/spells/247112-flare">Flare</a>, which should be dodged.
+            </p>
+            
+            <h3>Intermission 2 - 40%</h3>
+            
+            <p><span class="icon move"></span><span class="iconName move"> Move </span>
+                Same as intermission 1, with the added mechanic               
+               <a href="http://www.wowdb.com/spells/244736-wake-of-flame">Wake of Flame</a>.
+            </p></p>
+            
+            <h2>Phase 3</h2>
+            
+            <p><span class="icon move"></span><span class="iconName move"> Move </span>
+                Same as phase 1, with               
+               <a href="http://www.wowdb.com/spells/244736-wake-of-flame">Wake of Flame</a>
+                now spawning from void-zones and not from the boss.
+            </p></p>        
+           
+        </div>
         
     </div>
     
@@ -878,10 +1102,18 @@
                     <p> Bound. Broken. Eons of existence, knowing only pain. A shattered soul, fueling infinite evil.
                     The master beckons. Rise... Rise! Begin the end of all things.</p>
                 </div>
+                
+                <div class="linksWrapper">
+                    <div class="videoHolder">
+                        <a class="videoLink" href="https://www.youtube.com/watch?v=H0lEq7RPVx4" target="_blank">FatbossTV</a>
+                    </div>                   
+                </div>
             </div>
         </div>
         
-        <div class="mechanicsWrapper"></div>
+        <div class="mechanicsWrapper">
+            <h2>Soon &#153;</h2>
+        </div>
         
     </div>
     
