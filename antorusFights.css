@@ -1,10 +1,10 @@
 @font-face { font-family: "AccP"; src: url("assets/accid.ttf"); }
 @font-face { font-family: "League"; src: url("assets/LeagueGothic-Regular.otf"); }
-@font-face { font-family: "AdamPro"; src: url("AdamPro.otf"); }
+/*@font-face { font-family: "AdamPro"; src: url("AdamPro.otf"); }*/
 
-@include embed-font("Entypo", "AdamPro");
+@include embed-font("AdamPro", "AdamPro");
 %icon-font {
-    font-family: "Entypo";
+    font-family: "AdamPro";
 }
 
 body {
