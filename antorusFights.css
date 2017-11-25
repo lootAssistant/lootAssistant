@@ -1,12 +1,12 @@
-@font-face { font-family: "AdamPro"; src: url("assets/adamPro.ttf"); }
 @font-face { font-family: "AccP"; src: url("assets/accid.ttf"); }
-
+@font-face { font-family: "League"; src: url("assets/LeagueGothic-Regular.otf"); }
+@font-face { font-family: "AdamPro"; src: url("assets/adamPro.ttf"); }
 
 body {
     background: url("assets/antorusBlur.png") no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 1250px;
+    height: 100%;
 }
 
 a.videoLink{
