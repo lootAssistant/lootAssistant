@@ -7,6 +7,8 @@ body {
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 a.videoLink{
@@ -132,7 +134,6 @@ p {
 }
 
 .mechanicsWrapper{
-    height: 800px;
     width: 100%;
 }
 
