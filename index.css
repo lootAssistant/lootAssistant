@@ -1,0 +1,120 @@
+@font-face { font-family: "AccP"; src: url("assets/accid.ttf"); }
+@font-face { font-family: "League"; src: url("assets/LeagueGothic-Regular.otf"); }
+@font-face { font-family: "AdamPro"; src: url("assets/AdamPro.ttf"); }
+
+body {
+    background: url("assets/backBlur.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: "AdamPro";
+    font-size: 84px;
+    color: white;
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 800px;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 5px solid #fff
+}
+
+h2{
+    font-family: "AdamPro";
+    font-size: 40px;
+    color: white;
+    margin: 0px auto;
+    width: 800px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top:10px;
+}
+
+span.b{
+    color: #1c89c0;
+}
+
+span.lB{
+    color: #87fdfe;
+}
+
+.raidWrapper{
+    height: 480px;
+}
+
+.optWrapper{
+    display: none;
+    height: 480px;
+}
+
+.raidSelectorWrapper{
+    margin: 0 auto;
+    width: 60%;
+    height: 700px;
+}
+
+.raidButton{
+    height: 450px;
+    width: 50%;
+    float: left;
+}
+
+.optionButton{
+    height: 450px;
+    width: 33%;
+    float: left;
+}
+
+.raidImage{
+    height: 350px;
+    width: 350px;
+    background: url('assets/raidsSheet.png');
+    background-size: cover;
+    margin: 0 auto;
+    border: 5px solid #fff
+}
+
+.optionImage{
+    height: 200px;
+    width: 200px;
+    background: url('assets/raidsSheet.png');
+    background-size: cover;
+    margin: 0 auto;
+    border: 5px solid #fff
+}
+
+.raidText{
+    font-family: "AdamPro";
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.tosRaid{
+    background-position: 0px 0px;
+}
+
+.antorusRaid{
+    background-position: -350px 0px;
+}
+
+.bisSel{
+    background-position: -400px 0px;
+}
+
+.lcSel{
+    background-position: -600px 0px;
+}
+
+.stSel{
+    background-position: -800px 0px;
+}
+
+.raidImage:hover{
+    box-shadow: 0px 0px 10px #90CAF9;
+}
+
+.optionImage:hover{
+    box-shadow: 0px 0px 10px #90CAF9;
+}

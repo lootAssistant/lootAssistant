@@ -1,0 +1,170 @@
+body {
+    background: url("assets/backBlur.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tableHolder{
+    display: none;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.itemCol{
+    width: 200px;
+}
+
+table {
+    background-color: #070d20;
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+td {
+    padding: 5px;
+}
+
+td:hover{
+    background-color: #101e47;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #0b1533;
+}
+
+th {
+    font-size: 22px;
+    background-color: #1b87c0;
+}
+
+.bisContainer{
+    display: block;
+    margin: 0 auto;
+}
+
+.optionBisContainer{
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+}
+
+.bisCard{
+    height: 90px;
+    width: 320px;
+    box-shadow: 0px 0px 8px #888888;
+    margin: 5px 5px 5px 5px;
+}
+
+.bisHolder{
+    width: 650px;
+    height: 670px;
+    display: none;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}   
+
+.bisCol{
+    float: left;
+    width: 50%;
+}
+
+.bisRelicTableHolder{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    display: none;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.cardBlock{
+    height: 40px;
+    line-height: 40px;
+    background-color: #fce9ec;
+}
+
+.cardHeader{
+    font-family: "Impact";
+    color: white;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #64B5F6;
+    padding-left: 5px;
+}
+
+.cardFooter{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    margin: 0px;
+    font-size: small;
+    text-align: right;
+    background-color: #BBDEFB;
+    font-weight: bold;
+}
+
+.cardText{
+    text-align: center;
+    margin: 0px;
+    color: black;
+    font-weight: bold;
+}
+
+.gearImage{
+    height: 28px;
+    width: 28px;
+    background: url('assets/base28.png');
+    background-position: 0px 0px;
+    float: left;
+    margin: 5px 0px 0px 5px;
+}
+
+.itemText{
+    text-align: left;
+    margin: 0px 0px 0px 38px;
+}
+
+.textShadow {
+    text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
+}
+
+.gearImageRight{
+    float: right;
+}
+
+button{
+    visibility: visible;
+    color: grey;
+}
+
+.itemContainer{
+    width: 800px;
+    height: 0px;
+    border: solid;
+    margin-bottom: 10px;
+    display: none;
+    margin: 0 auto;
+    background-color: #070d20;
+    margin-bottom: 10px;
+}
+
+.itemBlock{
+    height: 40px;
+    line-height: 40px;
+    background-color: #1b87c0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}

@@ -8,7 +8,6 @@ body {
     background-attachment: fixed;
     height: 100%;
     overflow-y: scroll;
-    overflow-x: hidden;
 }
 
 a.videoLink{
@@ -109,7 +108,7 @@ h3{
     font-size: 26px;
     color: white;
     text-align: left;
-    width: 6500px;
+    width: 650px;
     margin-bottom: 20px;
     margin-top: 20px;
 }

@@ -1,0 +1,214 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title>BiS Lists</title>
+    <link rel="stylesheet" type="text/css" href="bislists.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <script src="jquery-3.2.1.min.js"></script>   
+    <script src="bislists.js"></script>
+    <script type="text/javascript" src="tt.js"></script>
+    
+    <div id="bisWrapper" class="bisContainer">
+        
+        <div class="optionBisContainer">
+            <select id="classSelect">
+                <option value=0>Death Knight</option>
+                <option value=1>Demon Hunter</option>
+                <option value=2>Druid</option>
+                <option value=3>Hunter</option>
+                <option value=4>Mage</option>
+                <option value=5>Monk</option>
+                <option value=6>Paladin</option>
+                <option value=7>Priest</option>
+                <option value=8>Rogue</option>
+                <option value=9>Shaman</option>
+                <option value=10>Warlock</option>
+                <option value=11>Warrior</option>
+            </select>
+            
+            <select id="specSelect">
+                <option value=0>Blood</option>
+                <option value=1>Frost</option>
+                <option value=2>Unholy</option>
+            </select>
+            
+            <button id="bisFetch" type="button">Fetch</button>
+            
+            <p id="loadDisplay" style="color: white;text-align: center">Loading Database</p>
+            
+        </div>
+        
+        <div id="bisTableHolder" class='bisHolder'>
+            
+            <div id="bisCol1" class="bisCol">
+                <div id="bisHelm" class="bisCard">                    
+                    <div class="cardHeader textShadow">Head</div>
+                        <div class="cardBlock">
+                            <div id="bisHelmPic" class="gearImage"></div>
+                            <div> <p id="bisHelmText" class="cardText"></p></div>
+                        </div>
+                    <div id="bisHelmFooter" class="cardFooter"></div>                  
+                </div>
+                
+                <div id="bisNeck" class="bisCard">                    
+                    <div class="cardHeader textShadow">Neck</div>
+                        <div class="cardBlock">
+                            <div  id="bisNeckPic" class="gearImage"></div>
+                            <div> <p id="bisNeckText" class="cardText"></p></div>
+                        </div>
+                    <div id="bisNeckFooter" class="cardFooter"></div>                  
+                </div>
+                
+                <div id="bisShoulders" class="bisCard">                    
+                    <div class="cardHeader textShadow">Shoulders</div>
+                        <div class="cardBlock">
+                            <div  id="bisShouldersPic" class="gearImage"></div>
+                            <div> <p id="bisShouldersText" class="cardText"></p></div>                           
+                        </div>
+                    <div id="bisShouldersFooter" class="cardFooter"></div>                  
+                </div>
+                                
+                <div id="bisCloak" class="bisCard">                    
+                    <div class="cardHeader textShadow">Cloak</div>
+                        <div class="cardBlock">
+                            <div  id="bisCloakPic" class="gearImage"></div>
+                            <div> <p id="bisCloakText" class="cardText"></p></div>                           
+                        </div>
+                    <div id="bisCloakFooter" class="cardFooter"></div>                  
+                </div>
+                
+                <div id="bisChest" class="bisCard">                    
+                    <div class="cardHeader textShadow">Chest</div>
+                        <div class="cardBlock">
+                            <div  id="bisChestPic" class="gearImage"></div>
+                            <div> <p id="bisChestText" class="cardText"></p></div>                           
+                        </div>
+                    <div id="bisChestFooter" class="cardFooter"></div>                  
+                </div>
+                                
+                 <div id="bisBracers" class="bisCard">                    
+                    <div class="cardHeader textShadow">Bracers</div>
+                        <div class="cardBlock">
+                            <div  id="bisBracersPic" class="gearImage"></div>
+                            <div> <p id="bisBracersText" class="cardText"></p></div>                           
+                        </div>
+                    <div id="bisBracersFooter" class="cardFooter"></div>                  
+                </div>
+                                                
+                <div id="bisGloves" class="bisCard">                    
+                    <div class="cardHeader textShadow">Gloves</div>
+                        <div class="cardBlock">
+                            <div  id="bisGlovesPic" class="gearImage"></div>
+                            <div> <p id="bisGlovesText" class="cardText"></p></div>                           
+                        </div>
+                    <div id="bisGlovesFooter" class="cardFooter"></div>                  
+                </div>
+                            
+            </div>
+            
+            <div id="bisCol2" class="bisCol">
+                
+                <div id="bisBelt" class="bisCard">                    
+                    <div class="cardHeader textShadow">Belt</div>
+                        <div class="cardBlock">
+                            <div id="bisBeltPic" class="gearImage"></div>
+                            <div> <p id="bisBeltText" class="cardText"></p></div>                           
+                        </div>
+                    <div id="bisBeltFooter" class="cardFooter"></div>                  
+                </div>
+                
+                <div id="bisLegs" class="bisCard">                    
+                    <div class="cardHeader textShadow">Legs</div>
+                        <div class="cardBlock">
+                            <div  id="bisLegsPic" class="gearImage"></div>
+                            <div> <p id="bisLegsText" class="cardText"></p></div>                           
+                        </div>
+                    <div id="bisLegsFooter" class="cardFooter"></div>                  
+                </div>
+                
+                <div id="bisBoots" class="bisCard">                    
+                    <div class="cardHeader textShadow">Boots</div>
+                        <div class="cardBlock">
+                            <div  id="bisBootsPic" class="gearImage"></div>
+                            <div> <p id="bisBootsText" class="cardText"></p></div>                           
+                        </div>
+                    <div id="bisBootsFooter" class="cardFooter"></div>                  
+                </div>
+                                
+                <div id="bisRing1" class="bisCard">                    
+                    <div class="cardHeader textShadow">Ring 1</div>
+                        <div class="cardBlock">
+                            <div  id="bisRing1Pic" class="gearImage"></div>
+                            <div> <p id="bisRing1Text" class="cardText"></p></div>                           
+                        </div>
+                    <div id="bisRing1Footer" class="cardFooter"></div>                  
+                </div>
+                
+                <div id="bisRing2" class="bisCard">                    
+                    <div class="cardHeader textShadow">Ring 2</div>
+                        <div class="cardBlock">
+                            <div  id="bisRing2Pic" class="gearImage"></div>
+                            <div> <p id="bisRing2Text" class="cardText"></p></div>                           
+                        </div>
+                    <div id="bisRing2Footer" class="cardFooter"></div>                  
+                </div>
+                                
+                 <div id="bisTrinket1" class="bisCard">                    
+                    <div class="cardHeader textShadow">Trinket 1</div>
+                        <div class="cardBlock">
+                            <div  id="bisTrinket1Pic" class="gearImage"></div>
+                            <div> <p id="bisTrinket1Text" class="cardText"></p></div>                           
+                        </div>
+                    <div id="bisTrinket1Footer" class="cardFooter"></div>                  
+                </div>
+                                                
+                <div id="bisTrinket2" class="bisCard">                    
+                    <div class="cardHeader textShadow">Trinket 2</div>
+                        <div class="cardBlock">
+                            <div  id="bisTrinket2Pic" class="gearImage"></div>
+                            <div> <p id="bisTrinket2Text" class="cardText"></p></div>                           
+                        </div>
+                    <div id="bisTrinket2Footer" class="cardFooter"></div>                  
+                </div>
+                            
+            </div>
+        </div>    
+        <div id="bisRelicTableHolder" class="bisRelicTableHolder">
+                
+            <div id="bisRelic1" class="bisCard floatLeft">                    
+                <div id="relic1Header" class="cardHeader textShadow">Relic 1</div>
+                    <div class="cardBlock">
+                        <div  id="bisRelic1Pic" class="gearImage"></div>
+                        <div> <p id="bisRelic1Text" class="cardText"></p></div>                           
+                    </div>
+                <div id="bisRelic1Footer" class="cardFooter"></div>                  
+            </div>
+                                
+            <div id="bisRelic2" class="bisCard floatLeft">                    
+                <div id="relic2Header" class="cardHeader textShadow">Relic 2</div>
+                    <div class="cardBlock">
+                        <div  id="bisRelic2Pic" class="gearImage"></div>
+                        <div> <p id="bisRelic2Text" class="cardText"></p></div>                           
+                    </div>
+                <div id="bisRelic2Footer" class="cardFooter"></div>                  
+            </div>
+                                
+            <div id="bisRelic3" class="bisCard floatLeft">                    
+                <div id="relic3Header" class="cardHeader textShadow">Relic 3</div>
+                    <div class="cardBlock">
+                        <div  id="bisRelic3Pic" class="gearImage"></div>
+                        <div> <p id="bisRelic3Text" class="cardText"></p></div>                           
+                    </div>
+                <div id="bisRelic3Footer" class="cardFooter"></div>                  
+            </div>
+                
+        </div>
+        
+    </div>
+    
+</body>
+
+</html>

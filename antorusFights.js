@@ -10,7 +10,7 @@ $( document ).ready(function() {
     console.log( "ready!" );
     startSizing();
     addMouseOvers();
-	cacheCheck()
+    cacheCheck();
 });
 
 function cacheCheck(){
@@ -32,6 +32,7 @@ function cacheCheck(){
 
 	}, false);
 }
+
 
 function startSizing(){
     for (i=0;i<sizes.length;i++){
