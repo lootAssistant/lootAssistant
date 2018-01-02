@@ -5,11 +5,19 @@
     <title>BiS Lists</title>
     <link rel="stylesheet" type="text/css" href="bislists.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
 </head>
 <body>
     <script src="jquery-3.2.1.min.js"></script>   
     <script src="bislists.js"></script>
     <script type="text/javascript" src="tt.js"></script>
+    
+    <div id="loaderWrapper" class="loaderWrapper">
+         <div class="loader"></div><br>
+         <div class="loaderText">Loading Database...</div>
+    </div>
     
     <div id="bisWrapper" class="bisContainer">
         
@@ -36,8 +44,6 @@
             </select>
             
             <button id="bisFetch" type="button">Fetch</button>
-            
-            <p id="loadDisplay" style="color: white;text-align: center">Loading Database</p>
             
         </div>
         

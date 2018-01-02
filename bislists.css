@@ -4,6 +4,34 @@ body {
     background-attachment: fixed;
 }
 
+.loader {
+    border: 8px solid #d9d9d9; /* Light grey */
+    border-top: 8px solid #284dbd; /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+    display: inline-block;
+}
+
+.loaderText{
+    display: inline-block;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.loaderWrapper{
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 .tableHolder{
     display: none;
     width: 80%;
@@ -40,7 +68,7 @@ th {
 }
 
 .bisContainer{
-    display: block;
+    display: none;
     margin: 0 auto;
 }
 
@@ -143,7 +171,6 @@ th {
 
 button{
     visibility: visible;
-    color: grey;
 }
 
 .itemContainer{

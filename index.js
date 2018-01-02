@@ -1,27 +1,23 @@
-var global1=1;
 
 $( document ).ready(function() {
     //Links: items / tosBisLists
     console.log( "ready!" );
     cacheCheck();
     addClickFunction();
-    console.log(global1);
 });
 
 function addClickFunction(){
     
     //Raid Selector brings the bis/lc option:
     //ToS hidden for now, while BiS is added:
-    /*$("#tosSelect").click(function(){
+    $("#tosSelect").click(function(){
         //Hide raid select:
-        handleRaidSelect("tos");
-        global1++;
-    });*/
+        //handleRaidSelect("tos");
+    });
     
     $("#abtSelect").click(function(){
         //Hide raid select:
         handleRaidSelect("abt");
-        global1++;
     });
     
     //Bis Selector
@@ -32,11 +28,11 @@ function addClickFunction(){
         window.location.href = "bislists.html";
     });
     
-    /*$("#lcSelect").click(function(){
+    $("#lcSelect").click(function(){
         //Hide intro screen:
         $('#introScreen').hide(200);
-        $('#bossSelectorC').show(200);       
-    });*/
+        window.location.href = "lc.html";
+    });
     
     //Strat Selector
     $("#stratSelect").click(function(){
@@ -44,6 +40,17 @@ function addClickFunction(){
         $('#introScreen').hide(200);
         $('#bisWrapper').show(200);
         window.location.href = "antorusFights.html";
+    });
+    
+    //Return button:
+    $("#returnB").click(function(){
+        $("#returnWrapper").fadeTo(400,0);
+        $('#optWrapper').fadeTo(400,0,function(){
+            $('#optWrapper').css("display","none");
+            $("#returnWrapper").css("display","none");
+            $('#raidWrapper').fadeTo(400,1); 
+        }); 
+        
     });
     
 }
@@ -69,11 +76,14 @@ function cacheCheck(){
 }
 
 function handleRaidSelect(r){
-    $('#raidWrapper').hide(200);
-    $('#optWrapper').show(200);
-    if (r.localeCompare("abt")===0){
-        
-    }else if(r.localeCompare("tos")===0){
-        
-    }
+    $('#raidWrapper').fadeTo(400,0,function(){
+        $('#raidWrapper').css("display","none");
+        $('#optWrapper').fadeTo(400,1);
+        $('#returnWrapper').fadeTo(400,1);
+        if (r.localeCompare("abt")===0){
+            sessionStorage.setItem('raid', 'abt');
+        }else if(r.localeCompare("tos")===0){
+            sessionStorage.setItem('raid', 'tos');
+        }
+    });
 }

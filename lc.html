@@ -6,6 +6,11 @@
     
     <link rel="stylesheet" type="text/css" href="lc.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <script type="text/javascript" src="tt.js"></script>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
 
 </head>
 <body>
@@ -13,246 +18,256 @@
     <script src="jquery-3.2.1.min.js"></script>   
     <script src="lc.js"></script>
     
-    <div id="introScreen" class="raidSelectorWrapper">
-        
-        <div><h1 class="textShadow">LOOT ASSISTANT</h1></div>
-        <div><h2 class="textShadow"><span class="lB">BiS Lists</span> & <span class="b">Loot Council</span></h2></div>  
-        
-        <div id="raidWrapper" class="raidWrapper">
-            
-            <div class="raidButton">
-                <div id="tosSelect" class="raidImage tosRaid"></div>
-                    <div>
-                    <p class="raidText textShadow"> Tomb of Sargeras </p>
-                    </div>
-            
-            </div>
-                
-            
-            <div class="raidButton">
-                <div id="antorusSelect" class="raidImage antorusRaid"></div>
-                    <div>
-                    <p class="raidText textShadow"> Antorus </p>
-                    </div>           
-            </div>
-            
-        </div>
-        
-        <div id="optWrapper" class="optWrapper">
-            
-            <div class="raidButton">
-                <div id="bisSelect" class="raidImage bisSel"></div>
-                    <div>
-                    <p class="raidText textShadow"> BiS Lists </p>
-                    </div>
-            
-            </div>
-                
-            
-            <div class="raidButton">
-                <div id="lcSelect" class="raidImage lcSel"></div>
-                    <div>
-                    <p class="raidText textShadow"> Loot Council </p>
-                    </div>           
-            </div>
-            
-        </div>        
-        
+    <div id="loaderWrapper" class="loaderWrapper">
+         <div class="loader"></div><br>
+         <div class="loaderText">Loading Database...</div>
     </div>
+
     
-    <div id="bossSelectorC" class="bossSelectorContainer">
+    <div id="tosBossSelectorC" class="bossSelectorContainer">
         
         <div  id="Goroth" class="bossButton">
-            <div class="bossImage goroth"></div>
-            <div>
-                <p class="bossText"> Goroth </p class="bossText">
-            </div>
-            
+            <div class="bossImage" style="background-position: 0px 0px"></div>
+            <div class="bossText">Goroth</div>           
         </div>
         
         <div id="Demonic Inquisition" class="bossButton">
-            <div class="bossImage di"></div>
-            <div>
-                <p class="bossText"> Demonic Inquisition </p>
-            </div>
-            
+            <div class="bossImage" style="background-position: -100px 0px"></div>
+            <div class="bossText">Demonic Inquisition</div>           
         </div>
                 
         <div id="Harjatan" class="bossButton">
-            <div class="bossImage harjatan"></div>
-            <div>
-                <p class="bossText"> Harjatan </p>
-            </div>
+            <div class="bossImage" style="background-position: -200px 0px"></div>
+            <div class="bossText"> Harjatan </div>
             
         </div>
         
         <div id="Mistress Sassz'ine" class="bossButton">
-            <div class="bossImage mistress"></div>
-            <div>
-                <p class="bossText"> Mistress Sassz'ine </p>
-            </div>
+            <div class="bossImage" style="background-position: -300px 0px"></div>
+            <div class="bossText"> Mistress Sassz'ine </div>
             
         </div>
         
         <div id="Sisters of the Moon" class="bossButton">
-            <div class="bossImage sisters"></div>
-            <div>
-                <p class="bossText"> Sisters of the Moon </p>
-            </div>
+            <div class="bossImage" style="background-position: -400px 0px"></div>
+            <div class="bossText"> Sisters of the Moon </div>
             
         </div>
                 
         <div id="The Desolate Host" class="bossButton">
-            <div class="bossImage host"></div>
-            <div>
-                <p class="bossText"> Desolate Host </p>
-            </div>
+            <div class="bossImage" style="background-position: -500px 0px"></div>
+            <div class="bossText"> Desolate Host </div>
             
         </div>
                         
         <div id="Maiden of Vigilance" class="bossButton">
-            <div class="bossImage maiden"></div>
-            <div>
-                <p class="bossText"> Maiden of Vigilance </p>
-            </div>
+            <div class="bossImage" style="background-position: -600px 0px"></div>
+            <div class="bossText"> Maiden of Vigilance </div>
             
         </div>
                                 
         <div id="Fallen Avatar" class="bossButton">
-            <div class="bossImage avatar"></div>
-            <div>
-                <p class="bossText"> Fallen Avatar </p>
-            </div>
+            <div class="bossImage" style="background-position: -700px 0px"></div>
+            <div class="bossText"> Fallen Avatar </div>
             
         </div>
                                         
         <div id="Kil'Jaeden" class="bossButton">
-            <div class="bossImage kj"></div>
-            <div>
-                <p class="bossText"> Kil'Jaeden </p>
-            </div>
+            <div class="bossImage" style="background-position: -800px 0px"></div>
+            <div class="bossText"> Kil'Jaeden </div>
             
         </div>       
         
     </div>
     
-    <div id="bossLootTableHolder" class="tableHolder">
+    <div id="abtBossSelectorC" class="bossSelectorContainer">
         
-        <div><table id="lootTable"></table> </div>
-        <div><button id="bisReverse" type="button">Search</button></div>          
+        <div id="Garothi Worldbreaker" class="bossButton">
+            <div class="bossImage" style="background-position: -900px 0px;"></div>
+            <div class="bossText">Garothi</div>
+            
+        </div>
+        
+        <div id="Felhounds of Sargeras" class="bossButton">
+            <div class="bossImage" style="background-position: -1000px 0px;"></div>
+            <div class="bossText">Felhounds of Sargeras</div>
+            
+        </div>
+                
+        <div id="Antoran High Command" class="bossButton">
+            <div class="bossImage" style="background-position: -1100px 0px;"></div>
+            <div class="bossText">High Command</div>
+            
+        </div>
+        
+        <div id="Portal Keeper Hasabel" class="bossButton">
+            <div class="bossImage" style="background-position: -1200px 0px;"></div>
+            <div class="bossText"> Hasabel </div>           
+        </div>
+        
+        <div id="Eonar the Life-Binder" class="bossButton">
+            <div class="bossImage" style="background-position: -1300px 0px;"></div>
+            <div class="bossText">Eonar</div>
+            
+        </div>
+                
+        <div id="Imonar the Soulhunter" class="bossButton">
+            <div class="bossImage" style="background-position: -1400px 0px;"></div>
+            <div class="bossText"> Imonar </div>
+            
+        </div>
+                        
+        <div id="Kin'garoth" class="bossButton">
+            <div class="bossImage" style="background-position: -1500px 0px;"></div>
+            <div class="bossText"> Kin'garoth </div>
+            
+        </div>
+                                
+        <div id="Varimathras" class="bossButton">
+            <div class="bossImage" style="background-position: -1600px 0px;"></div>
+            <div class="bossText"> Varimathras </div>            
+        </div>
+                                        
+        <div id="The Coven of Shivarra" class="bossButton">
+            <div class="bossImage" style="background-position: -1700px 0px;"></div>
+            <div class="bossText"> Coven of Shivarra </div>           
+        </div>
+        
+        <div id="Aggramar" class="bossButton">
+            <div class="bossImage" style="background-position: -1800px 0px;"></div>
+            <div class="bossText"> Aggramar </div>
+            
+        </div>
+        
+        <div id="Argus the Unmaker" class="bossButton">
+            <div class="bossImage" style="background-position: -1900px 0px;"></div>
+            <div class="bossText"> Argus </div>          
+        </div>
+        
     </div>
     
-    <div id="riHolder" class="reverseItemsHolder">
+    <div id="bossLootTableHolder" class="tableHolder">
         
-        <div id="i0c" class="itemContainer">
-            <div class="itemHeader">
-                
-                <div class="itemBlock">
-                    <div id="i0i" class="gearImage"></div>
-                    <div> <p id="i0t" class="cardText itemText"></p></div>
-                </div>
-                
-            </div>
-            <div class="itemBody">
-                
-                <div id="healerC0" class="itemCol"></div>
-                <div id="dpsC0" class="itemCol"></div>
-                <div id="tankC0" class="itemCol"></div>
-                
-            </div>
+        <div id="lootTable"></div>
+      
+        <div id="buttonWrapper" class="buttonHolder">
+            <button id="bisReverse" type="button">Search</button>
+            <button id="bisClear" type="button">Clear</button>
         </div>
         
-        <div id="i1c" class="itemContainer">
-            <div class="itemHeader">
-                
-                <div class="itemBlock">
-                    <div id="i1i" class="gearImage"></div>
-                    <div> <p id="i1t" class="cardText itemText"></p></div>
+        <div id="riHolder" class="reverseItemsHolder float_center">
+            
+            <div id="i0c" class="itemContainer child">
+                <div class="itemHeader">
+                    
+                    <div class="itemBlock">
+                        <div id="i0i" class="gearImage"></div>
+                        <div> <p id="i0t" class="cardText itemText"></p></div>
+                    </div>
+                    
                 </div>
-                
-            </div>
-            <div class="itemBody">
-                
-                <div id="healerC1" class="itemCol"><p>Healer</p></div>
-                <div id="dpsC1" class="itemCol"><p>DPS</p></div>
-                <div id="tankC1" class="itemCol"><p>Tank</p></div>
-                
-            </div>
-        </div>
-        
-        <div id="i2c" class="itemContainer">
-            <div class="itemHeader">
-                
-                <div class="itemBlock">
-                    <div id="i2i" class="gearImage"></div>
-                    <div> <p id="i2t" class="cardText itemText"></p></div>
+                <div class="itemBody">
+                    
+                    <div id="healerC0" class="itemCol"></div>
+                    <div id="dpsC0" class="itemCol"></div>
+                    <div id="tankC0" class="itemCol"></div>
+                    
                 </div>
-                
             </div>
-            <div class="itemBody">
-                
-                <div id="healerC2" class="itemCol"><p>Healer</p></div>
-                <div id="dpsC2" class="itemCol"><p>DPS</p></div>
-                <div id="tankC2" class="itemCol"><p>Tank</p></div>
-                
-            </div>
-        </div>
-        
-        <div id="i3c" class="itemContainer">
-            <div class="itemHeader">
-                
-                <div class="itemBlock">
-                    <div id="i3i" class="gearImage"></div>
-                    <div> <p id="i3t" class="cardText itemText"></p></div>
+            
+            <div id="i1c" class="itemContainer child">
+                <div class="itemHeader">
+                    
+                    <div class="itemBlock">
+                        <div id="i1i" class="gearImage"></div>
+                        <div> <p id="i1t" class="cardText itemText"></p></div>
+                    </div>
+                    
                 </div>
-                
-            </div>
-            <div class="itemBody">
-                
-                <div id="healerC3" class="itemCol"><p>Healer</p></div>
-                <div id="dpsC3" class="itemCol"><p>DPS</p></div>
-                <div id="tankC3" class="itemCol"><p>Tank</p></div>
-                
-            </div>
-        </div>
-        
-        <div id="i4c" class="itemContainer">
-            <div class="itemHeader">
-                
-                <div class="itemBlock">
-                    <div id="i4i" class="gearImage"></div>
-                    <div> <p id="i4t" class="cardText itemText"></p></div>
+                <div class="itemBody">
+                    
+                    <div id="healerC1" class="itemCol"><p>Healer</p></div>
+                    <div id="dpsC1" class="itemCol"><p>DPS</p></div>
+                    <div id="tankC1" class="itemCol"><p>Tank</p></div>
+                    
                 </div>
-                
             </div>
-            <div class="itemBody">
-                
-                <div id="healerC4" class="itemCol"><p>Healer</p></div>
-                <div id="dpsC4" class="itemCol"><p>DPS</p></div>
-                <div id="tankC4" class="itemCol"><p>Tank</p></div>
-                
-            </div>
-        </div>
-        
-        <div id="i5c" class="itemContainer">
-            <div class="itemHeader">
-                
-                <div class="itemBlock">
-                    <div id="i5i" class="gearImage"></div>
-                    <div> <p id="i5t" class="cardText itemText"></p></div>
+            
+            <div id="i2c" class="itemContainer child">
+                <div class="itemHeader">
+                    
+                    <div class="itemBlock">
+                        <div id="i2i" class="gearImage"></div>
+                        <div> <p id="i2t" class="cardText itemText"></p></div>
+                    </div>
+                    
                 </div>
-                
+                <div class="itemBody">
+                    
+                    <div id="healerC2" class="itemCol"><p>Healer</p></div>
+                    <div id="dpsC2" class="itemCol"><p>DPS</p></div>
+                    <div id="tankC2" class="itemCol"><p>Tank</p></div>
+                    
+                </div>
             </div>
-            <div class="itemBody">
-                
-                <div id="healerC5" class="itemCol"><p>Healer</p></div>
-                <div id="dpsC5" class="itemCol"><p>DPS</p></div>
-                <div id="tankC5" class="itemCol"><p>Tank</p></div>
-                
+            
+            <div id="i3c" class="itemContainer child">
+                <div class="itemHeader">
+                    
+                    <div class="itemBlock">
+                        <div id="i3i" class="gearImage"></div>
+                        <div> <p id="i3t" class="cardText itemText"></p></div>
+                    </div>
+                    
+                </div>
+                <div class="itemBody">
+                    
+                    <div id="healerC3" class="itemCol"><p>Healer</p></div>
+                    <div id="dpsC3" class="itemCol"><p>DPS</p></div>
+                    <div id="tankC3" class="itemCol"><p>Tank</p></div>
+                    
+                </div>
             </div>
+            
+            <div id="i4c" class="itemContainer child">
+                <div class="itemHeader">
+                    
+                    <div class="itemBlock">
+                        <div id="i4i" class="gearImage"></div>
+                        <div> <p id="i4t" class="cardText itemText"></p></div>
+                    </div>
+                    
+                </div>
+                <div class="itemBody">
+                    
+                    <div id="healerC4" class="itemCol"><p>Healer</p></div>
+                    <div id="dpsC4" class="itemCol"><p>DPS</p></div>
+                    <div id="tankC4" class="itemCol"><p>Tank</p></div>
+                    
+                </div>
+            </div>
+            
+            <div id="i5c" class="itemContainer child">
+                <div class="itemHeader">
+                    
+                    <div class="itemBlock">
+                        <div id="i5i" class="gearImage"></div>
+                        <div> <p id="i5t" class="cardText itemText"></p></div>
+                    </div>
+                    
+                </div>
+                <div class="itemBody">
+                    
+                    <div id="healerC5" class="itemCol"><p>Healer</p></div>
+                    <div id="dpsC5" class="itemCol"><p>DPS</p></div>
+                    <div id="tankC5" class="itemCol"><p>Tank</p></div>
+                    
+                </div>
+            </div>
+    
+            
+            
         </div>
-
-        
         
     </div>
     

@@ -15,17 +15,13 @@ var bisId=["Helm","Neck","Shoulders","Cloak","Chest","Bracers","Gloves","Belt","
 
 var tosBisList=[];
 var itemsList=[];
-var global1=1;
 var specID="";
-var dbLoaded=false;
 
 $( document ).ready(function() {
     //Links: items / tosBisLists
     loadJSON(['https://api.myjson.com/bins/wtq3v','https://api.myjson.com/bins/x53tv']);
-    console.log( "ready!" );
-    addClickFunction();
-    console.log(global1);
 });
+
 
 function addClickFunction(){
 
@@ -36,17 +32,15 @@ function addClickFunction(){
     
     //Fetch the BiS List
     $('#bisFetch').click(function(){
-        if (dbLoaded){
-            //Clear the hrefs in the text fields:
-            for (var i=0;i<bisId.length;i++){
-                $("#bis"+bisId[i]+"Text").empty();
-            }
-            $("#loadDisplay").css("display","none");
-            $("#bisWrapper").show(200);
-            $('#bisTableHolder').show(200);
-            $('#bisRelicTableHolder').show(200);
-            populateBiS();
+        //Clear the hrefs in the text fields:
+        for (var i=0;i<bisId.length;i++){
+            $("#bis"+bisId[i]+"Text").empty();
         }
+        $("#loadDisplay").css("display","none");
+        $("#bisWrapper").show(200);
+        $('#bisTableHolder').show(200);
+        $('#bisRelicTableHolder').show(200);
+        populateBiS();
     });   
 }
 
@@ -85,9 +79,12 @@ function loadJSON(links){
     
     request2.onload = function() {
         tosBisList = Array.from(request2.response);
-        dbLoaded=true;
-        $("#bisFetch").css("color","black");
-        $("#loadDisplay").text("Loaded! Click the fetch button!");
+        $("#loaderWrapper").fadeTo(400,0,function(){
+            $("#loaderWrapper").css("display","none");
+            $("#bisWrapper").fadeTo(400,1);
+            addClickFunction();
+        });
+        
     };
     
 }
